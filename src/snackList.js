@@ -3,7 +3,7 @@ const snackList = [ {name: "Cheese Stick", route: "/cheese"},
                     {name: "Corn Chips", route: "/chips"},
                     {name: "Beef Jerky", route:"/jerky"},
                     {name: "Cookies", route: "/cookies"},
-                    {name: "Peanut Butter Crackers", route: "/crackers"}
+                    {name: "PB Crackers", route: "/crackers"}
                 ];
 
 

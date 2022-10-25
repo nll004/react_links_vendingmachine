@@ -1,0 +1,57 @@
+#Vending-machine-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.Vending-machine-outer {
+    width: 550px;
+    height: 450px;
+    padding-top: 25px;
+    background-color: rgb(70, 70, 70);
+    border: 2px solid rgb(70,70,70);
+    border-radius: 5px;
+}
+
+.Vending-machine-inner {
+    width: 450px;
+    position: relative;
+    left: 25px;
+    background-color: white;
+}
+
+.Vending-machine-screen {
+    width: 475px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+}
+
+.Vending-machine-tray{
+    width: 300px;
+    height: 50px;
+    background-color: grey;
+    position: absolute;
+    bottom: 100px;
+    border: 2px solid rgb(26, 26, 26);
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(50,50,50);
+}
+
+.Vending-snack {
+    height: 150px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.Vending-snack-link {
+    text-decoration: none;
+    color: rgb(23, 143, 143);
+    font-weight: bolder;
+}
+
+.Vending-snack-link:hover{
+    color: black;
+}
