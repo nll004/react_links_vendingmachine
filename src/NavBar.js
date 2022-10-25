@@ -8,7 +8,7 @@ function NavBar(){
 
     return (
         <nav>
-            <NavLink to="/" end>Vending Home</NavLink>
+            <NavLink to="/" end> Vending Home </NavLink>
             {snackList.map( item => (
                     <NavLink exact="true"
                              to={item.route}
